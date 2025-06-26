@@ -71,11 +71,12 @@ if st.button("🎤 Start Recording"):
 
     # Export
     if st.button("📄 Export Q&A to .txt"):
-        qa_text = f"Interview Question:
+        qa_text = f"""Interview Question:
 {question_text}
 
 AI-Generated Answer ({tone}):
-{answer}"
+{answer}
+"""
         with open("interview_qa_output.txt", "w") as f:
             f.write(qa_text)
         with open("interview_qa_output.txt", "rb") as f:
