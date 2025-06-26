@@ -1,0 +1,7 @@
+streamlit
+openai
+openai-whisper
+sounddevice
+scipy
+numpy
+torch
